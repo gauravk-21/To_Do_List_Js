@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+    background-color: beige;
+}
+.container{
+    align-items: center;
+}
+
+.displaytodolist li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+
+.displaytodolist li:hover {
+    background-color: #f0f0f0;
+    transform: translateX(5px);
+}
+
+.displaytodolist li p {
+    margin: 0;
+    flex-grow: 1;
+    color: #333;
+    font-size: 16px;
+}
+
+.displaytodolist li button {
+    padding: 8px 15px;
+    color: #f44336;
+    border: none;
+    outline: none;
+    background-color: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+}
+
+/* ul li {
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+} */
